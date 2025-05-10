@@ -9,7 +9,7 @@
 export default {
  data() {
    return {
-     type: 'A'
+     type: 'D'
    };
  }
 }
