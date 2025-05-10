@@ -16,7 +16,7 @@ const i18nStrings = {
   }
 }
 
-const app = createApp(App)
+const app = createApp(App).use(router).use(router)
 // app.directive('focus', {
 //   mounted(el) {
 //     el.focus()

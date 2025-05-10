@@ -1,9 +1,8 @@
 <template>
-  <div id="nav">
+  <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/databinding">Data Binding</router-link> |
-    <router-link to="/databindinghtml">Data Binding Html</router-link>
-  </div>
+    <router-link to="/about">About</router-link>
+  </nav>
   <router-view/>
 </template>
 
@@ -16,16 +15,16 @@
   color: #2c3e50;
 }
 
-#nav {
+nav {
   padding: 30px;
 }
 
-#nav a {
+nav a {
   font-weight: bold;
   color: #2c3e50;
 }
 
-#nav a.router-link-exact-active {
+nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
