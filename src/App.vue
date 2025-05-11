@@ -13,8 +13,21 @@
     <router-link to="/databindingstyle">Style</router-link> |
     <router-link to="/databindinglist">List</router-link> |
     <router-link to="/renderingvif">VIf</router-link> |
-    <router-link to="/eventclick">eventclick</router-link> |-->
-    <router-link to="/eventchange">eventchange</router-link> |
+    <router-link to="/eventclick">eventclick</router-link> |
+    <router-link to="/eventchange">Eventchange</router-link> |
+    <router-link to="/nestedcomponent">NestedComponent</router-link> |
+    <router-link to="/parentcomponent">ParentComponent</router-link> |
+    <router-link to="/parentcomponent2">ParentComponent2</router-link> |
+    <router-link to="/parentcomponent3">ParentComponent3</router-link> |
+    <router-link to="/parentcomponent4">ParentComponent4</router-link> |
+    <router-link to="/parentcomponent5">ParentComponent5</router-link> |
+    <router-link to="/calculator">Calculator</router-link> |
+    <router-link to="/compositionapi">CompositionAPI</router-link> |
+    <router-link to="/compositionapi2">CompositionAPI2</router-link> |
+    <router-link to="/compositionapi3">CompositionAPI3</router-link> |
+    <router-link to="/compositionapi4">CompositionAPI4</router-link> |-->
+    <router-link to="/mixins">Mixins</router-link> |
+    <router-link to="/storeaccess">StoreAccess</router-link> |
   </nav>
   <router-view/>
 </template>
