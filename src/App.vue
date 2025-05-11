@@ -11,8 +11,10 @@
     <router-link to="/databindingbutton">Button</router-link> |
     <router-link to="/databindingclass">Class</router-link> |
     <router-link to="/databindingstyle">Style</router-link> |
-    <router-link to="/databindinglist">List</router-link> |-->
+    <router-link to="/databindinglist">List</router-link> |
     <router-link to="/renderingvif">VIf</router-link> |
+    <router-link to="/eventclick">eventclick</router-link> |-->
+    <router-link to="/eventchange">eventchange</router-link> |
   </nav>
   <router-view/>
 </template>
